@@ -1,0 +1,245 @@
+/* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  border-radius: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed !important;
+  z-index: 5;
+}
+
+/* Makes images fully responsive */
+/* line 3, ../sass/module/_heroslider.scss */
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+/* line 15, ../sass/module/_heroslider.scss */
+.carousel-inner {
+  border-radius: 15px;
+}
+
+/* line 19, ../sass/module/_heroslider.scss */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 200px;
+  bottom: 200px !important;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+/* line 30, ../sass/module/_heroslider.scss */
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+/* line 42, ../sass/module/_heroslider.scss */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+/* line 50, ../sass/module/_heroslider.scss */
+.section-white {
+  padding: 10px 0;
+}
+
+/* line 54, ../sass/module/_heroslider.scss */
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 61, ../sass/module/_heroslider.scss */
+  .section-white {
+    padding: 1.5em 0;
+  }
+}
+/* line 1, ../sass/module/_aboutus.scss */
+.testimonial_subtitle {
+  color: #0aaa7a;
+  font-size: 12px;
+}
+
+/* line 5, ../sass/module/_aboutus.scss */
+.testimonial_btn {
+  background-color: #373d4b !important;
+  color: #fff !important;
+}
+
+/* line 1, ../sass/module/_stickyImg.scss */
+.sticky-img {
+  background-image: url(https://images.unsplash.com/photo-1519668642556-472f54ecb69b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbf15bf49885edf8eb551ee1a5e65b3d&auto=format&fit=crop&w=1489&q=80);
+  height: 700px;
+  position: sticky;
+  top: 2vh;
+  z-index: -1;
+}
+
+/* line 1, ../sass/module/_rooms.scss */
+.rooms {
+  background-color: #222222;
+  color: #fff;
+}
+/* line 4, ../sass/module/_rooms.scss */
+.rooms--items {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #222;
+}
+
+/* line 2, ../sass/module/_gallery.scss */
+.message {
+  border: 1px solid #d2d0d0;
+  padding: 2em;
+  font-size: 1.7vw;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+}
+@supports (display: grid) {
+  /* line 2, ../sass/module/_gallery.scss */
+  .message {
+    display: none;
+  }
+}
+
+/* line 13, ../sass/module/_gallery.scss */
+.gallery {
+  display: none;
+  padding: 2rem;
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  /* line 13, ../sass/module/_gallery.scss */
+  .gallery {
+    padding: 4rem;
+  }
+}
+@supports (display: grid) {
+  /* line 13, ../sass/module/_gallery.scss */
+  .gallery {
+    display: block;
+  }
+}
+
+/* line 27, ../sass/module/_gallery.scss */
+.grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: row dense;
+}
+
+/* line 35, ../sass/module/_gallery.scss */
+.gallery-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background: #0c9a9a;
+  color: #fff;
+  grid-column-start: auto;
+  grid-row-start: auto;
+  color: #fff;
+  background: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  background-position: center;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  counter-increment: item-counter;
+}
+/* line 54, ../sass/module/_gallery.scss */
+.gallery-item:nth-of-type(3n) {
+  background-image: url("https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");
+}
+/* line 58, ../sass/module/_gallery.scss */
+.gallery-item:nth-of-type(4n) {
+  background-image: url("https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=");
+}
+/* line 62, ../sass/module/_gallery.scss */
+.gallery-item:nth-of-type(5n) {
+  background-image: url("https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+}
+/* line 66, ../sass/module/_gallery.scss */
+.gallery-item:nth-of-type(6n) {
+  background-image: url("https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+}
+/* line 70, ../sass/module/_gallery.scss */
+.gallery-item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+/* line 80, ../sass/module/_gallery.scss */
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+/* line 83, ../sass/module/_gallery.scss */
+.gallery-item:hover:after {
+  opacity: 0;
+}
+/* line 88, ../sass/module/_gallery.scss */
+.gallery-item--medium {
+  grid-row-end: span 2;
+}
+/* line 92, ../sass/module/_gallery.scss */
+.gallery-item--large {
+  grid-row-end: span 3;
+}
+/* line 96, ../sass/module/_gallery.scss */
+.gallery-item--full {
+  grid-column-end: auto;
+}
+@media screen and (min-width: 768px) {
+  /* line 96, ../sass/module/_gallery.scss */
+  .gallery-item--full {
+    grid-column: 1/-1;
+    grid-row-end: span 2;
+  }
+}
+/* line 105, ../sass/module/_gallery.scss */
+.gallery-item__details {
+  position: relative;
+  z-index: 1;
+  padding: 15px;
+  color: #444;
+  background: #fff;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  color: #828282;
+}
+/* line 115, ../sass/module/_gallery.scss */
+.gallery-item__details:before {
+  content: counter(item-counter);
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-right: 0.5em;
+  color: #444;
+}
