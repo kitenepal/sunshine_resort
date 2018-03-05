@@ -8,6 +8,16 @@
   z-index: 20;
 }
 
+/* line 10, ../sass/module/_navbar.scss */
+.nav li a {
+  color: #ffff57 !important;
+}
+
+/* line 14, ../sass/module/_navbar.scss */
+.navbar-brand {
+  color: #ffff57 !important;
+}
+
 /* Makes images fully responsive */
 /* line 3, ../sass/module/_heroslider.scss */
 .img-responsive,
@@ -34,7 +44,7 @@
   bottom: 200px !important;
   z-index: 10;
   padding: 0 0 10px 25px;
-  color: #fff;
+  color: #ffff57 !important;
   text-align: left;
 }
 

@@ -6,3 +6,11 @@
 	position: fixed !important;
 	z-index: 20;
 }
+
+.nav li a{
+	color: $primary-color !important;
+}
+
+.navbar-brand{
+	color: $primary-color !important;
+}
