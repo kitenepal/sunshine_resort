@@ -4,5 +4,6 @@
 }
   .testimonial_btn{
     background-color: #373d4b !important;
-    color: #fff !important;
+    color: $primary-color !important;
+    border: 2px solid $primary-color !important;
  }

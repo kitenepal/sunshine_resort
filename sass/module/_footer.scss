@@ -9,10 +9,14 @@ footer{
 			list-style-type: none;
 		}
 		ul li:hover{
-			border-left: 5px solid red;
+			border-left: 5px solid $primary-color;
 			transition: 0.5s;
 		}
 	}
+}
+
+.footer-heading{
+	color: $primary-color;
 }
 
 // --------------------------------------
@@ -166,4 +170,5 @@ footer{
 
 .copyright{
 	background-color: #222200;
+	color: $primary-color;
 }

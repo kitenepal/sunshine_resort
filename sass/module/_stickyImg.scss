@@ -1,6 +1,8 @@
 .sticky-img{
-	background-image: url(https://images.unsplash.com/photo-1519668642556-472f54ecb69b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cbf15bf49885edf8eb551ee1a5e65b3d&auto=format&fit=crop&w=1489&q=80);
-	height: 700px;
+	background-image: url(https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b749ef140950edd755a159baaca6b6f0&auto=format&fit=crop&w=1500&q=80);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 300px;
 	position: sticky;
 	top: 2vh;
 	z-index: -1;
