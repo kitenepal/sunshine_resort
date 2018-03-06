@@ -1,0 +1,14 @@
+.booking-form{
+	background-color: $secondary-color;
+	margin-top: 50px;
+	.heading{
+		color: $primary-color;
+	}
+	form input, label{
+		margin-bottom: 10px;
+		border-radius: 0;
+	}
+	label{
+		color: #fff;
+	}
+}

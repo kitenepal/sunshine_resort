@@ -2,6 +2,7 @@ footer{
 	background-color: #222;
 	color: #fff;
 	margin: 0;
+	border-top: 2px solid $primary-color;
 	.pagenav{
 		ul{
 			display: inline;
@@ -177,7 +178,7 @@ footer{
 .copy-right{
 	background-color: $primary-color;
 	color: $secondary-color;
-	margin-top: 0;
+	margin: 0;
 	a{
 		color: #3f145b;
 		text-decoration: none;
