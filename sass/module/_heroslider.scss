@@ -23,10 +23,14 @@
   bottom: 200px !important;
   z-index: 10;
   padding: 0 0 10px 25px;
-  color: $primary-color !important;
-  text-align: left;
+  h1{
+    color: $primary-color !important;
+    font-size: 45px;
+    font-family: 'Concert One', cursive;
+  }
   .primary_btn{
-    color: $secondary-color;    
+    color: $secondary-color;
+    margin-top: 20px;
   }
   .primary_btn:hover{
     color: $primary-color;    
@@ -49,6 +53,11 @@
 .carousel-control.right {
   background-image: none;
 }
+
+.carousel .carousel-control{
+  color: $primary-color;
+}
+
 
 
 /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
