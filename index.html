@@ -29,16 +29,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">SUNSHINE RESORT</a>
+                <a href="#" class="navbar-brand"><img src="https://images.vexels.com/media/users/3/145131/isolated/preview/d2ba09d9b4856df5b15cdc5636a45b37-sun-large-wavy-beams-icon-by-vexels.png" class="navbar-brand"/></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
                     <li><a href="#rooms">ROOMS</a></li>
-                    <li><a href="#">GALLERY</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
                     <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -73,6 +73,7 @@
                     <img src="img/heroslider/heroslider1.jpg" alt="...">
                     <div class="carousel-caption">
                         <h1>Sunshine Garden Restaurent & Resort <br/> Nangkhel, Bhaktapur</h1>
+                        <button class="primary_btn">Book now</button>
                     </div>
                 </div>
                 <div class="item">
@@ -197,7 +198,7 @@
     </section>
     <!-- /rooms -->
     <!-- gallery -->
-    <section class="gallery section-padding">
+    <section class="gallery section-padding" id="gallery">
         <div class="container">
             <h2 class="text-center heading">Gallery</h2>
             <div class="gallery-items">
@@ -226,7 +227,8 @@
     </section>
     <!-- /gallery -->
     <!-- contact -->
-    <section class="contact section-padding">
+    <section class="contact" id="contact">
+    	<div class="contact--bgcolor section-padding">
         <div class="container">
             <h2 class="text-center heading">Contact</h2>
             <div class="row">
@@ -257,6 +259,7 @@
                 </div>
             </div>
         </div>
+       </div>
     </section>
     <!-- contact -->
     <!-- footer -->
@@ -269,11 +272,11 @@
                 <div class="col-md-4 pagenav">
                     <h2 class="footer-heading">Pagenav</h2>
                     <ul>
-                        <li> HOME</li>
-                        <li> ABOUT</li>
-                        <li> ROOMS</li>
-                        <li> GALLERY</li>
-                        <li> CONTACT</li>
+                        <li> <a href="#">HOME</a></li>
+                        <li> <a href="#about">ABOUT</a></li>
+                        <li> <a href="#rooms">ROOMS</a></li>
+                        <li> <a href="#gallery">GALLERY</a></li>
+                        <li> <a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -287,10 +290,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 copyright">
-            <h4 class="text-center">Copyright © KITENEPAL</h4>
-        </div>
     </footer>
+    <div class="col-md-12 copy-right">
+            <h4 class="text-center">Copyright © Sunshine Resort | Designed by <a href="http://kitenepal.com">KITE Nepal Pvt. Ltd.</a></h4>
+        </div>
     <!-- /footer -->
     <script src="js/gallery.js"></script>
 </body>

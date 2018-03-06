@@ -25,6 +25,12 @@
   padding: 0 0 10px 25px;
   color: $primary-color !important;
   text-align: left;
+  .primary_btn{
+    color: $secondary-color;    
+  }
+  .primary_btn:hover{
+    color: $primary-color;    
+  }
 }
 
 .carousel-indicators {
