@@ -1,3 +1,7 @@
+.heroslider{
+  margin-top: 50px;
+}
+
 /* Makes images fully responsive */
 
 .img-responsive,
@@ -34,6 +38,11 @@
   }
   .primary_btn:hover{
     color: $primary-color;    
+  }
+}
+@media (max-width: 900px){
+  .carousel-caption{
+    display: none;
   }
 }
 

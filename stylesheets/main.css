@@ -31,9 +31,10 @@ p {
   border: 2px solid #222222;
   transition: 0.5s;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.25);
+  color: #222222;
 }
 
-/* line 29, ../sass/base/_base.scss */
+/* line 30, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #222222;
   border-color: #FFD700;
@@ -61,8 +62,18 @@ p {
   padding: 2px 0 2px 10px !important;
 }
 
+/* line 18, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #FFD700 !important;
+}
+
+/* line 1, ../sass/module/_heroslider.scss */
+.heroslider {
+  margin-top: 50px;
+}
+
 /* Makes images fully responsive */
-/* line 3, ../sass/module/_heroslider.scss */
+/* line 7, ../sass/module/_heroslider.scss */
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -74,12 +85,12 @@ p {
 }
 
 /* ------------------- Carousel Styling ------------------- */
-/* line 15, ../sass/module/_heroslider.scss */
+/* line 19, ../sass/module/_heroslider.scss */
 .carousel-inner {
   border-radius: 15px;
 }
 
-/* line 19, ../sass/module/_heroslider.scss */
+/* line 23, ../sass/module/_heroslider.scss */
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -88,23 +99,29 @@ p {
   z-index: 10;
   padding: 0 0 10px 25px;
 }
-/* line 26, ../sass/module/_heroslider.scss */
+/* line 30, ../sass/module/_heroslider.scss */
 .carousel-caption h1 {
   color: #FFD700 !important;
   font-size: 45px;
   font-family: 'Concert One', cursive;
 }
-/* line 31, ../sass/module/_heroslider.scss */
+/* line 35, ../sass/module/_heroslider.scss */
 .carousel-caption .primary_btn {
   color: #222222;
   margin-top: 20px;
 }
-/* line 35, ../sass/module/_heroslider.scss */
+/* line 39, ../sass/module/_heroslider.scss */
 .carousel-caption .primary_btn:hover {
   color: #FFD700;
 }
 
-/* line 40, ../sass/module/_heroslider.scss */
+@media (max-width: 900px) {
+  /* line 44, ../sass/module/_heroslider.scss */
+  .carousel-caption {
+    display: none;
+  }
+}
+/* line 49, ../sass/module/_heroslider.scss */
 .carousel-indicators {
   position: absolute;
   bottom: 0;
@@ -117,31 +134,31 @@ p {
   text-align: right;
 }
 
-/* line 52, ../sass/module/_heroslider.scss */
+/* line 61, ../sass/module/_heroslider.scss */
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
 }
 
-/* line 57, ../sass/module/_heroslider.scss */
+/* line 66, ../sass/module/_heroslider.scss */
 .carousel .carousel-control {
   color: #FFD700;
 }
 
 /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
-/* line 65, ../sass/module/_heroslider.scss */
+/* line 74, ../sass/module/_heroslider.scss */
 .section-white {
   padding: 10px 0;
 }
 
-/* line 69, ../sass/module/_heroslider.scss */
+/* line 78, ../sass/module/_heroslider.scss */
 .section-white {
   background-color: #fff;
   color: #555;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 76, ../sass/module/_heroslider.scss */
+  /* line 85, ../sass/module/_heroslider.scss */
   .section-white {
     padding: 1.5em 0;
   }
@@ -297,6 +314,10 @@ p {
 /* line 14, ../sass/module/_contact.scss */
 .contact .heading {
   color: #FFD700;
+}
+/* line 17, ../sass/module/_contact.scss */
+.contact form {
+  padding-bottom: 15px;
 }
 
 /* line 1, ../sass/module/_footer.scss */
@@ -497,6 +518,16 @@ footer .pagenav a {
   text-decoration: none;
 }
 
+@media (max-width: 900px) {
+  /* line 189, ../sass/module/_footer.scss */
+  .copy-right {
+    padding: 5px;
+  }
+  /* line 191, ../sass/module/_footer.scss */
+  .copy-right h4 {
+    margin: 0;
+  }
+}
 /* line 1, ../sass/module/_booking.scss */
 .booking-form {
   background-color: #222222;
@@ -514,4 +545,52 @@ footer .pagenav a {
 /* line 11, ../sass/module/_booking.scss */
 .booking-form label {
   color: #fff;
+}
+
+/* line 1, ../sass/module/_gototop.scss */
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 20;
+}
+
+/* line 22, ../sass/module/_gototop.scss */
+#return-to-top i {
+  color: #FFD700;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 35, ../sass/module/_gototop.scss */
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* line 38, ../sass/module/_gototop.scss */
+#return-to-top:hover i {
+  top: 5px;
 }

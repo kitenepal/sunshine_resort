@@ -184,3 +184,12 @@ footer{
 		text-decoration: none;
 	}
 }
+
+@media (max-width: 900px){
+	.copy-right{
+		padding: 5px;
+		h4{
+			margin: 0;
+		}
+	}
+}
