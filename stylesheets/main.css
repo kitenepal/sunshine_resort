@@ -165,11 +165,10 @@ p {
 }
 /* line 3, ../sass/module/_aboutus.scss */
 .testimonial_subtitle {
-  color: #0aaa7a;
   font-size: 12px;
 }
 
-/* line 7, ../sass/module/_aboutus.scss */
+/* line 6, ../sass/module/_aboutus.scss */
 .testimonial_btn {
   background-color: #373d4b !important;
   color: #FFD700 !important;
