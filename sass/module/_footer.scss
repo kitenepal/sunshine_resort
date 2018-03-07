@@ -29,7 +29,6 @@ footer{
 // --------------------------------------
 
 .wrp {
-	text-align: center;
 	height: 100%;
 	width: 100%;
 }
@@ -43,10 +42,10 @@ footer{
 
 .icon {
 	display: inline-block;
-	font-size: 50px;
+	font-size: 30px;
 	line-height: 90px;
-	height: 90px;
-	width: 90px;
+	height: 50px;
+	width: 50px;
 	margin-right: 20px;
 	color: #4099ff;
 	border-radius: 100%;
@@ -153,35 +152,38 @@ footer{
 
 @-moz-keyframes bubble2 {
 	100% {
-		color: #fff;
+		color: $primary-color;
 	}
 }
 
 @-webkit-keyframes bubble2 {
 	100% {
-		color: #fff;
+		color: $primary-color;
 	}
 }
 
 @-o-keyframes bubble2 {
 	100% {
-		color: #fff;
+		color: $primary-color;
 	}
 }
 
 @keyframes bubble2 {
 	100% {
-		color: #fff;
+		color: $primary-color;
 	}
 }
 
 .copy-right{
-	background-color: $primary-color;
-	color: $secondary-color;
+	background-color: #000;
+	color: $primary-color;
 	margin: 0;
 	a{
-		color: #3f145b;
-		text-decoration: none;
+		color: $primary-color;
+		text-decoration: none !important;
+	}
+	a:hover{
+		color: #fff;
 	}
 }
 
