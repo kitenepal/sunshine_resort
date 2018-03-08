@@ -322,11 +322,13 @@ p {
 .contact .heading {
   color: #FFD700;
 }
-/* line 19, ../sass/module/_contact.scss */
-.contact form {
-  padding-bottom: 15px;
-}
 
+@media (max-width: 900px) {
+  /* line 23, ../sass/module/_contact.scss */
+  .contact form {
+    padding: 15px 0 15px 0;
+  }
+}
 /* line 1, ../sass/module/_footer.scss */
 footer {
   background-color: #222;
@@ -636,4 +638,27 @@ footer .pagenav a {
   margin-bottom: 20px;
   padding: 20px;
   color: #FFD700;
+}
+
+/* line 5, ../sass/module/pages/_contactpage.scss */
+.contactpage--bgcolor {
+  background-color: #222;
+}
+/* line 8, ../sass/module/pages/_contactpage.scss */
+.contactpage--content {
+  color: #fff;
+  height: 350px;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+}
+/* line 14, ../sass/module/pages/_contactpage.scss */
+.contactpage .heading {
+  color: #FFD700;
+}
+
+@media (max-width: 900px) {
+  /* line 21, ../sass/module/pages/_contactpage.scss */
+  .contactpage form {
+    padding: 15px 0 15px 0;
+  }
 }
