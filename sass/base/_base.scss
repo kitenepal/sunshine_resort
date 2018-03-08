@@ -1,5 +1,5 @@
 body{
-	background-image: url('../img/bg.png');	
+	background-image: url('../img/bg.png');
 }
 p{
 	font-family: 'Signika Negative', sans-serif;
@@ -21,7 +21,7 @@ p{
 	width: 200px;
 	text-transform: uppercase;
 	font-weight: bold;
-	border: 2px solid $secondary-color;
+	border: 2px solid #000;
 	transition: 0.5s;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.25), 0 17px 50px 0 rgba(0,0,0,0.25);
 	color: $secondary-color;
