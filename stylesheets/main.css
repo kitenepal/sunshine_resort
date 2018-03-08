@@ -632,6 +632,12 @@ footer .pagenav a {
   background-color: #222;
 }
 
+/* line 2, ../sass/module/pages/_aboutPage.scss */
+.testmonial .heading {
+  padding-bottom: 0;
+  font-size: 30px;
+}
+
 /* line 2, ../sass/module/pages/_roompage.scss */
 .roompage--items {
   background-color: #222222;
