@@ -300,35 +300,31 @@ p {
 }
 /* line 1, ../sass/module/_contact.scss */
 .contact {
-  background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efe01df2ebde79714be88d560479c9c7&auto=format&fit=crop&w=1500&q=80);
+  background-image: url("../img/contact_bg.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 /* line 5, ../sass/module/_contact.scss */
-.contact--bgcolor {
-  background-color: #222;
-}
-/* line 8, ../sass/module/_contact.scss */
 .contact--content {
   height: 350px;
   border: 2px solid #FFD700;
   color: #FFD700;
 }
-/* line 12, ../sass/module/_contact.scss */
+/* line 9, ../sass/module/_contact.scss */
 .contact--content i {
   padding-right: 10px;
 }
-/* line 16, ../sass/module/_contact.scss */
+/* line 13, ../sass/module/_contact.scss */
 .contact .heading {
   color: #FFD700;
 }
-/* line 19, ../sass/module/_contact.scss */
+/* line 16, ../sass/module/_contact.scss */
 .contact form input, .contact textarea {
   border-radius: 0;
 }
 
 @media (max-width: 900px) {
-  /* line 26, ../sass/module/_contact.scss */
+  /* line 23, ../sass/module/_contact.scss */
   .contact form {
     padding: 15px 0 15px 0;
   }
