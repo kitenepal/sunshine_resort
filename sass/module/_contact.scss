@@ -2,14 +2,11 @@
 	background-image: url("../img/contact_bg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-  &--content{
-    height: 350px;
-    border: 2px solid $primary-color;
-    color: $primary-color;
-    i{
-    	padding-right: 10px;
-    }
-  }
+  // &--content{
+  //   height: 350px;
+  //   border: 2px solid $primary-color;
+  //   color: $primary-color;
+  // }
   .heading{
 		color: $primary-color;
 	}
