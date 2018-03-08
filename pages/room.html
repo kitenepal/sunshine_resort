@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>S. Resort |Booking</title>
-	<link rel="icon" href="https://images.vexels.com/media/users/3/145131/isolated/preview/d2ba09d9b4856df5b15cdc5636a45b37-sun-large-wavy-beams-icon-by-vexels.png">
+    <title>S. Resort | Rooms</title>
+    <link rel="icon" href="https://images.vexels.com/media/users/3/145131/isolated/preview/d2ba09d9b4856df5b15cdc5636a45b37-sun-large-wavy-beams-icon-by-vexels.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
 </head>
 <body>
-	<!-- navbar -->
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- navbar -->
     <nav class="navbar navbar-inverse">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -56,51 +57,56 @@
         <!-- /.container -->
     </nav>
     <!-- /navbar -->
-	<div class="booking_bgsticky"></div>
-	<!-- form -->
-    <section class="booking-form section-padding">
+
+    <div class="navigation">
         <div class="container">
-            <h2 class="text-center heading">Booking form</h2>
-            <form>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <label>Name</label>
-                        <input type="text" class="form-control" name="">
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <label>Email</label>
-                        <input type="email" class="form-control" name="">
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <label>Contact No.</label>
-                        <input type="text" class="form-control" name="">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <label>Arrive</label>
-                        <input type="date" class="form-control" name="">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <label>Depart</label>
-                        <input type="date" class="form-control" name="">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <label>Room</label>
-                        <input type="number" class="form-control" value="1" name="">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <label>People</label>
-                        <input type="number" class="form-control" value="1" name="">
-                    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="heading">Rooms</span>
+                    <span class="pull-right"><a href="../index.html">HOME</a> | ROOMS</span>
+                    <hr/>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <button class="primary_btn" style="margin-top: 20px;">Book now</button>
-                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rooms -->
+    <section class="roompage section-padding">
+        <div class="container">
+            <div class="row roompage--items">
+                <div class="col-md-4  col-sm-4">
+                    <img src="https://images.unsplash.com/photo-1424847262089-18a6858bd7e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8776a403331326692bdb52b7e9ad7a3&auto=format&fit=crop&w=1500&q=80" alt="" width="100%" class="img-thumbnail">
                 </div>
-            </form>
+                <div class="col-md-4 col-sm-4">
+                    <h3>Description</h3>
+                    <p>with 1 Double sized bed, air-conditioned, cable TV, Intercom, Bathroom with hot and cold shower</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3>Prices</h3>
+                    <p>Rs 2999/-
+                        <br/> 5,000 incl. taxes and fees </p>
+                    <a href="pages/booking.html"><button class="primary_btn">Book now</button></a>
+                </div>
+            </div>
+            <div class="row roompage--items">
+                <div class="col-md-4 col-sm-4">
+                    <img src="https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-0.3.5&s=f961072b806e7971a696c6fedce6ae92&auto=format&fit=crop&w=1500&q=80" alt="" width="100%" class="img-thumbnail">
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3>Description</h3>
+                    <p>with 1 Double sized bed, air-conditioned, cable TV, Intercom, Bathroom with hot and cold shower</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3>Prices</h3>
+                    <p>Rs 2999/-
+                        <br/> 5,000 incl. taxes and fees </p>
+                    <a href="pages/booking.html"><button class="primary_btn">Book now</button></a>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- /form -->
+    <!-- /rooms -->
+
     <!-- footer -->
     <footer class="section-padding">
         <div class="container">
@@ -136,4 +142,5 @@
         </div>
     <!-- /footer -->
 </body>
+
 </html>

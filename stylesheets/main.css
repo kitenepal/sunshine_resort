@@ -310,16 +310,19 @@ p {
 }
 /* line 8, ../sass/module/_contact.scss */
 .contact--content {
-  color: #fff;
   height: 350px;
   border: 2px solid #FFD700;
   color: #FFD700;
 }
-/* line 14, ../sass/module/_contact.scss */
+/* line 12, ../sass/module/_contact.scss */
+.contact--content i {
+  padding-right: 10px;
+}
+/* line 16, ../sass/module/_contact.scss */
 .contact .heading {
   color: #FFD700;
 }
-/* line 17, ../sass/module/_contact.scss */
+/* line 19, ../sass/module/_contact.scss */
 .contact form {
   padding-bottom: 15px;
 }
@@ -600,4 +603,37 @@ footer .pagenav a {
 /* line 38, ../sass/module/_gototop.scss */
 #return-to-top:hover i {
   top: 5px;
+}
+
+/* line 1, ../sass/module/pages/_navigation.scss */
+.navigation {
+  margin-top: 90px;
+}
+/* line 3, ../sass/module/pages/_navigation.scss */
+.navigation .heading {
+  font-size: 30px;
+}
+/* line 6, ../sass/module/pages/_navigation.scss */
+.navigation .pull-right {
+  font-size: 15px;
+  margin-top: 10px;
+}
+/* line 9, ../sass/module/pages/_navigation.scss */
+.navigation .pull-right a {
+  text-decoration: none;
+  color: #222222;
+}
+/* line 14, ../sass/module/pages/_navigation.scss */
+.navigation hr {
+  margin: 0;
+  height: 2px;
+  background-color: #222;
+}
+
+/* line 2, ../sass/module/pages/_roompage.scss */
+.roompage--items {
+  background-color: #222222;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #FFD700;
 }

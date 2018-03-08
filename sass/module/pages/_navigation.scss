@@ -1,0 +1,19 @@
+.navigation{
+	margin-top: 90px;
+	.heading{
+		font-size: 30px;
+	}
+	.pull-right{
+		font-size: 15px;
+		margin-top: 10px;
+		a{
+			text-decoration: none;
+			color: $secondary-color;
+		}
+	}
+	hr{
+		margin: 0;
+		height: 2px;
+		background-color: #222;
+	}
+}
